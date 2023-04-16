@@ -1,0 +1,204 @@
+.container_header {
+	display: flex;
+	justify-content: center;
+}
+
+.logo {
+	font-family: 'Revalia'; 
+	font-style: normal;
+	font-weight: 400; 
+	font-size: 48px;
+	color: #773782;
+
+	text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+.hero_block_img {
+	width: 357px;
+	height: 233.7px;
+}
+.hero_block_text {
+	word-break: break-word;
+	width: 400px;
+}
+.nav_list {
+	display: flex;
+	list-style: none;
+}
+.nav_item {
+	margin-right: 42px;
+}
+
+.nav_link {
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.nav {
+	margin: auto 0;
+}
+
+.header {
+	background: #EEEFF1;
+}
+.hero_block_btn {
+	width: 225px;
+	height: 65px;
+	background: #773782;
+	box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 100px;
+}
+.hero_block_title {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 100;
+	font-size: 48px;
+	text-shadow: 10px 10px 4px rgba(119, 55, 130, 0.5);
+}
+.hero_block_text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #727272;
+
+
+	text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+
+}
+.container_hero_block {
+	background: #EEEFF1;
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-top: 130px;
+	padding-bottom: 130px;
+	display: flex;
+	justify-content: space-between;
+}
+.about_title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	text-shadow: 10px 10px 4px rgba(119, 55, 130, 0.5);
+}
+.about_text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #727272;
+	margin-bottom: 80px;
+}
+.skill_full {
+	background-color: #C4C4C4;
+	height: 4px;
+	width: 445px;
+}
+.skill_done1 {
+	background-color: #773782;
+	height: 100%;
+	width: 50%;
+}
+.skill_done2 {
+	background-color: #773782;
+	height: 100%;
+	width: 80%;
+}
+.skill_done3 {
+	background-color: #773782;
+	height: 100%;
+	width: 50%;
+}
+.skill_name {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #727272;
+}
+.container_about {
+	padding: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.about_img {
+	width: 400px;
+}
+.about_content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.skill_list {
+	list-style: none;
+	margin-right: 50px;
+}
+.skills_title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+}
+.video_title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	text-align: center;
+}
+.video_text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	color: #727272;
+	margin-bottom: 50px;
+}
+.container_video {
+	padding: 200px;
+	background: #EEEFF1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.gallary_list {
+ display: flex;
+ flex-wrap: wrap;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+.screenshot {
+width: 100%;
+}
+.gallary_item {
+width: 25%;
+}
+.footer {
+background: #34547A;
+}
+.footer_list {
+ list-style: none;
+ display: flex;
+}
+.container_footer {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.footer_item {
+margin-right: 22px;
+} 
+.harrow_up {
+	position: fixed;
+	top: 100;
+	left: 100;
+	right: 0;
+	bottom: 0;
+}
